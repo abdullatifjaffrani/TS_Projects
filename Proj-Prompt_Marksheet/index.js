@@ -26,7 +26,7 @@ const MarksObtainedInSubjects = await inquirer.prompt([
 ]);
 console.log("");
 // Here we are Calculating Tot. Marks Obtained in his Subjects
-let SumTotMarksInSubj = MarksObtainedInSubjects.EnglishMarks + MarksObtainedInSubjects.UrduMarks + MarksObtainedInSubjects.MathsMarks + MarksObtainedInSubjects.IslamiatMarks + MarksObtainedInSubjects.ScienceMarks;
+let SumTotMarksInSubj = MarksObtainedInSubjects.EnglishMarks + MarksObtainedInSubjects.UrduMarks + MarksObtainedInSubjects.MathsMarks + MarksObtainedInSubjects.IslamiatMarks + MarksObtainedInSubjects.ScienceMarks + MarksObtainedInSubjects.SSTMarks + MarksObtainedInSubjects.DrawingMarks;
 // Now we are Calculating Student Marks & his Percentage
 let TotalMarks = 700;
 let ObtainedMarks = SumTotMarksInSubj;
