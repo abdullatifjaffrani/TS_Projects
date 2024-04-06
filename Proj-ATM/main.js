@@ -52,7 +52,7 @@ if (MyPinAnswer.Pin === MyPin) {
     }
     // If select Check Balance it will Show this
     else if (OperationAnswer.operation === "Check Balance") {
-        console.log(chalk.bgBlue(`Your Remaining Balance is:$${MyBalance}`));
+        console.log(chalk.bgBlue(`Your Remaining Balance is: $${MyBalance}`));
     }
 }
 // If we type Pin Incorrect it will show this
