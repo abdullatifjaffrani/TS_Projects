@@ -6,6 +6,8 @@ import chalk from "chalk";
 console.log(chalk.bgGrey.black("Welcome to Currency Converter, By Abdul Latif Jaffrani!!!"));
 console.log(chalk.bgGrey.black("This tool allows you to convert between different currencies.\n"));
 
+
+
 let Currency : any= {
     Dollar: 1, // Base Currency
     GBP: 0.8,
@@ -14,6 +16,8 @@ let Currency : any= {
     EURO: 0.92
 
 }
+
+
 
 let UserAnswer= await inquirer.prompt([{
     name: "from",
